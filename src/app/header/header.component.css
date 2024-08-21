@@ -1,0 +1,67 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header .background{
+    filter: blur(4px) brightness(0.75);
+    transform: scale(1.1);
+    z-index: -3;
+    object-fit: cover;
+}
+
+header .title{
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    font-size: 250px;
+    z-index: -2;
+    margin-top: 100px;
+    
+}
+
+header .foreground{
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    padding: 0 10px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: "Playfair Display", serif;
+}
+
+.cus-div{
+    background-color: #faf9f6;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 5;
+    transform: translate(0, 0) rotate(0.001deg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Playfair Display", serif;
+}

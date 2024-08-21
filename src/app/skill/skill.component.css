@@ -1,0 +1,63 @@
+section{
+    background-color: #faf9f6;
+    padding: 50px 100px;
+}
+
+.scroll-direction {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 2rem;
+    color: #333;
+    transform: translateX(0%);
+}
+
+h2{
+    font-family: "Playfair Display", serif;
+    white-space: normal;
+}
+
+.cus-pad{
+    height: 50vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.cus-scroll{
+    padding: 50px 0;
+    font-size: 2.5rem;
+    font-family: "Playfair Display", serif;
+    color: #333;
+}
+
+.direction-block-item{
+    font-weight: 600;
+    line-height: 1;
+    position: absolute;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.direction-block-item.one{
+    top: 55%;
+    transform: rotate(9deg);
+    z-index: 3;
+}
+
+.direction-block-item.two{
+    top: 70%;
+    transform: rotate(4deg);
+    z-index: 2;
+}
+
+.direction-block-item.three{
+    top: 45%;
+    transform: rotate(-9deg);
+    z-index: 2;
+}
+
+.direction-block-item h1{
+    background-color: #fff;
+    display: block;
+    padding: 0 20px;
+    white-space: nowrap;
+}

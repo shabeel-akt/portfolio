@@ -1,0 +1,1 @@
+const parallaxElements=document.querySelectorAll(".parallax");function handleMouseMove(n){const{clientX:o,clientY:c}=n,s=window.innerWidth/2,a=window.innerHeight/2;parallaxElements.forEach(e=>{const t=e.getAttribute("data-speed")||.05;e.style.transform=`translate(${(o-s)*t}px, ${(c-a)*t}px)`})}document.addEventListener("mousemove",handleMouseMove),console.log("hola");
