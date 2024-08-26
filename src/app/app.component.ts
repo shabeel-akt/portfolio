@@ -15,7 +15,21 @@ export class AppComponent implements OnInit{
     window.addEventListener('load', () => {
       this.scroll = new LocomotiveScroll({
         el: document.querySelector('[data-scroll-container]'),
-        smooth: true
+        smooth: true,
+        smoothMobile: true,
+        // mobile: {
+        //   breakpoint: 0,
+        //   smooth: true,
+        //   getDirection: true,
+        // },
+        // tablet: {
+        //   breakpoint: 0,
+        //   smooth: true,
+        //   getDirection: true,
+        // },
+        smartphone: {
+          smooth: true,
+        }
       });
 
       // If you want to update scroll after images load
