@@ -1,0 +1,43 @@
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    padding: 0 10px;
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: "Playfair Display", serif;
+    cursor: pointer;
+}
+
+.cus-div{
+    background-color: #faf9f6;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 5;
+    transform: translate(0, 0) rotate(0.001deg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Playfair Display", serif;
+}
+
+@media (max-width:900px) {
+    nav ul{
+        display: none;
+    }
+}

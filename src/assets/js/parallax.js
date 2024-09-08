@@ -16,5 +16,3 @@ function handleMouseMove(event) {
 }
 
 document.addEventListener('mousemove', handleMouseMove);
-
-console.log("hola")
